@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://nabsteur.github.io/product-preview-card-component/](https://nabsteur.github.io/product-preview-card-component/)
 
 ## My process
 
