@@ -1,0 +1,127 @@
+/*** HTML ***/
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+p {
+    color: hsl(228, 12%, 48%);
+}
+a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
+a:hover {
+    color: #1A4032;
+}
+/*** Preview section ***/
+#perfume-preview-section {
+    width: 600px;
+    margin: 175px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+}
+/* Preview image */
+.card-preview-img-container {
+    width: 50%;
+    display: flex;
+}
+.card-preview-img-product {
+    width: 100%;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+}
+/* Preview content */
+.card-preview-content-container {
+    width: 50%;
+}
+.card-preview-content {
+    margin: 32px;
+}
+.preview-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.perfume-preview-highlight {
+    font-size: 32px;
+    font-family: Fraunces, serif;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.perfume-preview-description {
+    line-height: 1.7;
+}
+/* Price */
+.preview-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.preview-actual-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    font-family: Fraunces, serif;
+    font-weight: 700;
+}
+.preview-old-price {
+    font-size: 13px;
+    text-decoration: line-through;
+    padding-left: 19px;
+}
+/* Button add to cart */
+.preview-btn-add-cart {
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+.preview-btn-add-cart:hover {
+    background-color: #1A4032;
+}
+.img-icon-cart {
+    margin-right: 10px;
+}
+/*** Attribution section ***/
+.attribution {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+/*** Responsive ***/
+@media (max-width: 650px){
+    #perfume-preview-section {
+        width: 100%;
+        display: block;
+        margin: 28px 0;
+    }
+    .card-preview-img-container {
+        display: flex;
+        width: 100%;
+        border-radius: 0;
+    }
+    .card-preview-img-product {
+        border-radius: 10px 10px 0 0;
+    }
+    .card-preview-content-container {
+        display: flex;
+        width: 100%;
+    }
+    .card-preview-content {
+        margin: 3% 5%;
+    }
+    .preview-price {
+        margin-top: 0;
+    }
+    body {
+        padding: 0 16px;
+    }
+    .preview-btn-add-cart {
+        margin-bottom: 4%;
+    }
+} 
